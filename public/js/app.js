@@ -143,10 +143,9 @@ eval("var toString = {}.toString;\n\nmodule.exports = Array.isArray || function 
 /*!****************************************!*\
   !*** ./resources/assets/sass/app.scss ***!
   \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL3Nhc3MvYXBwLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL2Fzc2V0cy9zYXNzL2FwcC5zY3NzP2EyZWEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/assets/sass/app.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \"{\".\n  ╷\n1 │ import 'core';\n  │              ^\n  ╵\n  resources\\assets\\sass\\app.scss 1:14  root stylesheet\n    at processResult (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\webpack\\lib\\NormalModule.js:764:19)\n    at C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\webpack\\lib\\NormalModule.js:866:5\n    at C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:400:11\n    at C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:252:18\n    at context.callback (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass-loader\\dist\\index.js:54:7\n    at Function.call$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:117836:16)\n    at render_closure1.call$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:101433:12)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:35588:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34113:21)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34419:49)\n    at Object._Future__propagateToListeners (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:4203:77)\n    at _Future._completeError$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34270:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:33895:12)\n    at Object._asyncRethrow (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:3997:17)\n    at C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:24506:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:4022:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:33914:12)\n    at _awaitOnObject_closure0.call$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:33908:25)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:35588:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34113:21)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34419:49)\n    at Object._Future__propagateToListeners (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:4203:77)\n    at _Future._completeError$2 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34270:9)\n    at _Future__asyncCompleteError_closure.call$0 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:34349:18)\n    at Object._microtaskLoop (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:4259:24)\n    at StaticClosure._startMicrotaskLoop (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:4265:11)\n    at _AsyncRun__scheduleImmediateJsOverride_internalCallback.call$0 (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:33815:21)\n    at invokeClosure (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:1473:26)\n    at Immediate.<anonymous> (C:\\xampp\\htdocs\\conferences\\laravel\\node_modules\\sass\\sass.dart.js:1494:18)\n    at process.processImmediate (node:internal/timers:476:21)");
 
 /***/ }),
 
@@ -630,7 +629,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bootstrap_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap.js */ \"./resources/assets/js/bootstrap.js\");\n/* harmony import */ var flatpickr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr */ \"./node_modules/flatpickr/dist/esm/index.js\");\n\n\ndocument.addEventListener('DOMContentLoaded', function () {\n  document.querySelectorAll('.datepicker').forEach(function (item) {\n    (0,flatpickr__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item, {\n      mode: \"range\"\n    });\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcyIsIm1hcHBpbmdzIjoiOzs7QUFBd0I7QUFDVTtBQUVsQ0MsUUFBUSxDQUFDQyxnQkFBZ0IsQ0FBQyxrQkFBa0IsRUFBRSxZQUFZO0VBQ3RERCxRQUFRLENBQUNFLGdCQUFnQixDQUFDLGFBQWEsQ0FBQyxDQUFDQyxPQUFPLENBQUMsVUFBVUMsSUFBSSxFQUFFO0lBQzdETCxxREFBUyxDQUFDSyxJQUFJLEVBQUU7TUFDWkMsSUFBSSxFQUFFO0lBQ1YsQ0FBQyxDQUFDO0VBQ04sQ0FBQyxDQUFDO0FBQ04sQ0FBQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL2Fzc2V0cy9qcy9hcHAuanM/ZTM0OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJy4vYm9vdHN0cmFwLmpzJztcbmltcG9ydCBmbGF0cGlja3IgZnJvbSBcImZsYXRwaWNrclwiO1xuXG5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgZnVuY3Rpb24gKCkge1xuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5kYXRlcGlja2VyJykuZm9yRWFjaChmdW5jdGlvbiAoaXRlbSkge1xuICAgICAgICBmbGF0cGlja3IoaXRlbSwge1xuICAgICAgICAgICAgbW9kZTogXCJyYW5nZVwiXG4gICAgICAgIH0pO1xuICAgIH0pO1xufSk7XG4iXSwibmFtZXMiOlsiZmxhdHBpY2tyIiwiZG9jdW1lbnQiLCJhZGRFdmVudExpc3RlbmVyIiwicXVlcnlTZWxlY3RvckFsbCIsImZvckVhY2giLCJpdGVtIiwibW9kZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/assets/js/app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bootstrap_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap.js */ \"./resources/assets/js/bootstrap.js\");\n/* harmony import */ var flatpickr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flatpickr */ \"./node_modules/flatpickr/dist/esm/index.js\");\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcyIsIm1hcHBpbmdzIjoiOzs7QUFBd0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz9lMzQ4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi9ib290c3RyYXAuanMnO1xuaW1wb3J0IGZsYXRwaWNrciBmcm9tIFwiZmxhdHBpY2tyXCI7XG5cblxuIl0sIm5hbWVzIjpbImZsYXRwaWNrciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/assets/js/app.js\n");
 
 /***/ }),
 
@@ -641,7 +640,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _boo
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"./node_modules/axios/lib/axios.js\");\n/**\n * We'll load the axios HTTP library which allows us to easily issue requests\n * to our Laravel back-end. This library automatically handles sending the\n * CSRF token as a header based on the value of the \"XSRF\" token cookie.\n */\n\n\nwindow.axios = axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\nwindow.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';\nvar flatpickr = require('flatpickr');\n/**\n * Echo exposes an expressive API for subscribing to channels and listening\n * for events that are broadcast by Laravel. Echo and event broadcasting\n * allows your team to easily build robust real-time web applications.\n */\n\n// import Echo from 'laravel-echo';\n\n// import Pusher from 'pusher-js';\n// window.Pusher = Pusher;\n\n// window.Echo = new Echo({\n//     broadcaster: 'pusher',\n//     key: import.meta.env.VITE_PUSHER_APP_KEY,\n//     cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER ?? 'mt1',\n//     wsHost: import.meta.env.VITE_PUSHER_HOST ? import.meta.env.VITE_PUSHER_HOST : `ws-${import.meta.env.VITE_PUSHER_APP_CLUSTER}.pusher.com`,\n//     wsPort: import.meta.env.VITE_PUSHER_PORT ?? 80,\n//     wssPort: import.meta.env.VITE_PUSHER_PORT ?? 443,\n//     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',\n//     enabledTransports: ['ws', 'wss'],\n// });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2Jvb3RzdHJhcC5qcyIsIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRTBCO0FBQzFCQyxNQUFNLENBQUNELEtBQUssR0FBR0EsNkNBQUs7QUFFcEJDLE1BQU0sQ0FBQ0QsS0FBSyxDQUFDRSxRQUFRLENBQUNDLE9BQU8sQ0FBQ0MsTUFBTSxDQUFDLGtCQUFrQixDQUFDLEdBQUcsZ0JBQWdCO0FBQzNFLElBQU1DLFNBQVMsR0FBR0MsT0FBTyxDQUFDLFdBQVcsQ0FBQztBQUN0QztBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2Jvb3RzdHJhcC5qcz8xZjBlIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogV2UnbGwgbG9hZCB0aGUgYXhpb3MgSFRUUCBsaWJyYXJ5IHdoaWNoIGFsbG93cyB1cyB0byBlYXNpbHkgaXNzdWUgcmVxdWVzdHNcbiAqIHRvIG91ciBMYXJhdmVsIGJhY2stZW5kLiBUaGlzIGxpYnJhcnkgYXV0b21hdGljYWxseSBoYW5kbGVzIHNlbmRpbmcgdGhlXG4gKiBDU1JGIHRva2VuIGFzIGEgaGVhZGVyIGJhc2VkIG9uIHRoZSB2YWx1ZSBvZiB0aGUgXCJYU1JGXCIgdG9rZW4gY29va2llLlxuICovXG5cbmltcG9ydCBheGlvcyBmcm9tICdheGlvcyc7XG53aW5kb3cuYXhpb3MgPSBheGlvcztcblxud2luZG93LmF4aW9zLmRlZmF1bHRzLmhlYWRlcnMuY29tbW9uWydYLVJlcXVlc3RlZC1XaXRoJ10gPSAnWE1MSHR0cFJlcXVlc3QnO1xuY29uc3QgZmxhdHBpY2tyID0gcmVxdWlyZSgnZmxhdHBpY2tyJyk7XG4vKipcbiAqIEVjaG8gZXhwb3NlcyBhbiBleHByZXNzaXZlIEFQSSBmb3Igc3Vic2NyaWJpbmcgdG8gY2hhbm5lbHMgYW5kIGxpc3RlbmluZ1xuICogZm9yIGV2ZW50cyB0aGF0IGFyZSBicm9hZGNhc3QgYnkgTGFyYXZlbC4gRWNobyBhbmQgZXZlbnQgYnJvYWRjYXN0aW5nXG4gKiBhbGxvd3MgeW91ciB0ZWFtIHRvIGVhc2lseSBidWlsZCByb2J1c3QgcmVhbC10aW1lIHdlYiBhcHBsaWNhdGlvbnMuXG4gKi9cblxuLy8gaW1wb3J0IEVjaG8gZnJvbSAnbGFyYXZlbC1lY2hvJztcblxuLy8gaW1wb3J0IFB1c2hlciBmcm9tICdwdXNoZXItanMnO1xuLy8gd2luZG93LlB1c2hlciA9IFB1c2hlcjtcblxuLy8gd2luZG93LkVjaG8gPSBuZXcgRWNobyh7XG4vLyAgICAgYnJvYWRjYXN0ZXI6ICdwdXNoZXInLFxuLy8gICAgIGtleTogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0FQUF9LRVksXG4vLyAgICAgY2x1c3RlcjogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0FQUF9DTFVTVEVSID8/ICdtdDEnLFxuLy8gICAgIHdzSG9zdDogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0hPU1QgPyBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfSE9TVCA6IGB3cy0ke2ltcG9ydC5tZXRhLmVudi5WSVRFX1BVU0hFUl9BUFBfQ0xVU1RFUn0ucHVzaGVyLmNvbWAsXG4vLyAgICAgd3NQb3J0OiBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfUE9SVCA/PyA4MCxcbi8vICAgICB3c3NQb3J0OiBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfUE9SVCA/PyA0NDMsXG4vLyAgICAgZm9yY2VUTFM6IChpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfU0NIRU1FID8/ICdodHRwcycpID09PSAnaHR0cHMnLFxuLy8gICAgIGVuYWJsZWRUcmFuc3BvcnRzOiBbJ3dzJywgJ3dzcyddLFxuLy8gfSk7XG4iXSwibmFtZXMiOlsiYXhpb3MiLCJ3aW5kb3ciLCJkZWZhdWx0cyIsImhlYWRlcnMiLCJjb21tb24iLCJmbGF0cGlja3IiLCJyZXF1aXJlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/assets/js/bootstrap.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ \"./node_modules/axios/lib/axios.js\");\n/**\n * We'll load the axios HTTP library which allows us to easily issue requests\n * to our Laravel back-end. This library automatically handles sending the\n * CSRF token as a header based on the value of the \"XSRF\" token cookie.\n */\n\n\nwindow.axios = axios__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\nwindow.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';\n/**\n * Echo exposes an expressive API for subscribing to channels and listening\n * for events that are broadcast by Laravel. Echo and event broadcasting\n * allows your team to easily build robust real-time web applications.\n */\n\n// import Echo from 'laravel-echo';\n\n// import Pusher from 'pusher-js';\n// window.Pusher = Pusher;\n\n// window.Echo = new Echo({\n//     broadcaster: 'pusher',\n//     key: import.meta.env.VITE_PUSHER_APP_KEY,\n//     cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER ?? 'mt1',\n//     wsHost: import.meta.env.VITE_PUSHER_HOST ? import.meta.env.VITE_PUSHER_HOST : `ws-${import.meta.env.VITE_PUSHER_APP_CLUSTER}.pusher.com`,\n//     wsPort: import.meta.env.VITE_PUSHER_PORT ?? 80,\n//     wssPort: import.meta.env.VITE_PUSHER_PORT ?? 443,\n//     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',\n//     enabledTransports: ['ws', 'wss'],\n// });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2pzL2Jvb3RzdHJhcC5qcyIsIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRTBCO0FBQzFCQyxNQUFNLENBQUNELEtBQUssR0FBR0EsNkNBQUs7QUFFcEJDLE1BQU0sQ0FBQ0QsS0FBSyxDQUFDRSxRQUFRLENBQUNDLE9BQU8sQ0FBQ0MsTUFBTSxDQUFDLGtCQUFrQixDQUFDLEdBQUcsZ0JBQWdCO0FBQzNFO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9hc3NldHMvanMvYm9vdHN0cmFwLmpzPzFmMGUiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBXZSdsbCBsb2FkIHRoZSBheGlvcyBIVFRQIGxpYnJhcnkgd2hpY2ggYWxsb3dzIHVzIHRvIGVhc2lseSBpc3N1ZSByZXF1ZXN0c1xuICogdG8gb3VyIExhcmF2ZWwgYmFjay1lbmQuIFRoaXMgbGlicmFyeSBhdXRvbWF0aWNhbGx5IGhhbmRsZXMgc2VuZGluZyB0aGVcbiAqIENTUkYgdG9rZW4gYXMgYSBoZWFkZXIgYmFzZWQgb24gdGhlIHZhbHVlIG9mIHRoZSBcIlhTUkZcIiB0b2tlbiBjb29raWUuXG4gKi9cblxuaW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJztcbndpbmRvdy5heGlvcyA9IGF4aW9zO1xuXG53aW5kb3cuYXhpb3MuZGVmYXVsdHMuaGVhZGVycy5jb21tb25bJ1gtUmVxdWVzdGVkLVdpdGgnXSA9ICdYTUxIdHRwUmVxdWVzdCc7XG4vKipcbiAqIEVjaG8gZXhwb3NlcyBhbiBleHByZXNzaXZlIEFQSSBmb3Igc3Vic2NyaWJpbmcgdG8gY2hhbm5lbHMgYW5kIGxpc3RlbmluZ1xuICogZm9yIGV2ZW50cyB0aGF0IGFyZSBicm9hZGNhc3QgYnkgTGFyYXZlbC4gRWNobyBhbmQgZXZlbnQgYnJvYWRjYXN0aW5nXG4gKiBhbGxvd3MgeW91ciB0ZWFtIHRvIGVhc2lseSBidWlsZCByb2J1c3QgcmVhbC10aW1lIHdlYiBhcHBsaWNhdGlvbnMuXG4gKi9cblxuLy8gaW1wb3J0IEVjaG8gZnJvbSAnbGFyYXZlbC1lY2hvJztcblxuLy8gaW1wb3J0IFB1c2hlciBmcm9tICdwdXNoZXItanMnO1xuLy8gd2luZG93LlB1c2hlciA9IFB1c2hlcjtcblxuLy8gd2luZG93LkVjaG8gPSBuZXcgRWNobyh7XG4vLyAgICAgYnJvYWRjYXN0ZXI6ICdwdXNoZXInLFxuLy8gICAgIGtleTogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0FQUF9LRVksXG4vLyAgICAgY2x1c3RlcjogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0FQUF9DTFVTVEVSID8/ICdtdDEnLFxuLy8gICAgIHdzSG9zdDogaW1wb3J0Lm1ldGEuZW52LlZJVEVfUFVTSEVSX0hPU1QgPyBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfSE9TVCA6IGB3cy0ke2ltcG9ydC5tZXRhLmVudi5WSVRFX1BVU0hFUl9BUFBfQ0xVU1RFUn0ucHVzaGVyLmNvbWAsXG4vLyAgICAgd3NQb3J0OiBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfUE9SVCA/PyA4MCxcbi8vICAgICB3c3NQb3J0OiBpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfUE9SVCA/PyA0NDMsXG4vLyAgICAgZm9yY2VUTFM6IChpbXBvcnQubWV0YS5lbnYuVklURV9QVVNIRVJfU0NIRU1FID8/ICdodHRwcycpID09PSAnaHR0cHMnLFxuLy8gICAgIGVuYWJsZWRUcmFuc3BvcnRzOiBbJ3dzJywgJ3dzcyddLFxuLy8gfSk7XG4iXSwibmFtZXMiOlsiYXhpb3MiLCJ3aW5kb3ciLCJkZWZhdWx0cyIsImhlYWRlcnMiLCJjb21tb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/assets/js/bootstrap.js\n");
 
 /***/ })
 
@@ -671,42 +670,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axio
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	(() => {
-/******/ 		var deferred = [];
-/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
-/******/ 			if(chunkIds) {
-/******/ 				priority = priority || 0;
-/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
-/******/ 				deferred[i] = [chunkIds, fn, priority];
-/******/ 				return;
-/******/ 			}
-/******/ 			var notFulfilled = Infinity;
-/******/ 			for (var i = 0; i < deferred.length; i++) {
-/******/ 				var [chunkIds, fn, priority] = deferred[i];
-/******/ 				var fulfilled = true;
-/******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
-/******/ 						chunkIds.splice(j--, 1);
-/******/ 					} else {
-/******/ 						fulfilled = false;
-/******/ 						if(priority < notFulfilled) notFulfilled = priority;
-/******/ 					}
-/******/ 				}
-/******/ 				if(fulfilled) {
-/******/ 					deferred.splice(i--, 1)
-/******/ 					var r = fn();
-/******/ 					if (r !== undefined) result = r;
-/******/ 				}
-/******/ 			}
-/******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -759,68 +723,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var axio
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"/js/app": 0,
-/******/ 			"css/app": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0;
-/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
-/******/ 				for(moduleId in moreModules) {
-/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 					}
-/******/ 				}
-/******/ 				if(runtime) var result = runtime(__webpack_require__);
-/******/ 			}
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					installedChunks[chunkId][0]();
-/******/ 				}
-/******/ 				installedChunks[chunkId] = 0;
-/******/ 			}
-/******/ 			return __webpack_require__.O(result);
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/assets/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/assets/sass/app.scss")))
-/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	__webpack_require__("./resources/assets/js/app.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./resources/assets/sass/app.scss");
 /******/ 	
 /******/ })()
 ;

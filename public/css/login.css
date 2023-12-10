@@ -1,81 +1,18 @@
-/* Add this CSS in your stylesheets or in a style tag in your Blade files */
+/* Add this to your login.css file or create a new CSS file */
 
 body {
     background-color: #f8f9fa;
     font-family: 'Nunito', sans-serif;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 29vh;
-    margin-top: 2rem; /* Adjust the top margin as needed */
-}
-
-.card {
-    width: 100%;
-    max-width: 400px;
-    margin: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    border-bottom: 1px solid #0056b3;
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.form-label {
-    font-weight: bold;
-    margin-bottom: 8px;
-    display: block;
-}
-
-.form-control {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.form-check {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.btn-primary {
-    width: 100%;
-    padding: 10px;
-    background-color: #0056b3;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #004080;
-}
-
-.btn-link {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    text-decoration: underline;
+    height: 20vh;
+    margin-top: 2rem;
 }
 
 .navbar {
@@ -86,28 +23,88 @@ body {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.navbar-nav {
-    margin-left: auto;
+.navbar-toggler-icon {
+    border-color: #007bff;
 }
 
-.nav-item {
-    margin-right: 15px;
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
 }
+
+.navbar-nav a {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    color: #0056b3;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 
 .dropdown-menu {
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0; /* Remove margin-top */
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+}
+.navbar-nav {
+    position: relative; /* Add this line */
 }
 
 .dropdown-item {
-    color: #333;
-    padding: 10px 20px;
+    color: #495057;
+    padding: 5px 10px;
+    display: block;
 }
 
 .dropdown-item:hover {
     background-color: #f8f9fa;
+    color: #0056b3;
+}
+
+.dropdown-menu-end {
+    right: 0;
+}
+
+.navbar-nav.ms-auto {
+    align-items: center;
+}
+
+.navbar-nav.ms-auto .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav.ms-auto .nav-item:last-child {
+    margin-right: 20px;
+}
+
+.navbar-nav.ms-auto .logout-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav.ms-auto .logout-btn:hover {
+    background-color: #c82333;
 }
 
 .main-content {
