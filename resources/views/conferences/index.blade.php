@@ -1,5 +1,3 @@
-<!-- index.php -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,10 +21,11 @@
     <?php foreach ($conferences as $conference): ?>
     <div>
         <h2><?= $conference->title ?></h2>
-        <p><?= $conference->description ?></p>
-        <p><?= $conference->date ?></p>
+        <p>Aprašas: <?= $conference->description ?></p>
+        <p>Įvykio data: <?= $conference->date ?></p>
+        <p>Adresas: <?=$conference->address?></p>
     </div>
-    <?php endforeach; ?>
+    <?php  endforeach; ?>
 </div>
 </body>
 </html>
