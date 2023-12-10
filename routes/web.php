@@ -1,5 +1,6 @@
-<?php
+/<?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [\App\Http\Controllers\ConferenceController::class, 'index'])->name('conferences.index');
+
+Route::get('/login', [LoginController::class, 'showLoginForm']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

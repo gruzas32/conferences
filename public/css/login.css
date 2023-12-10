@@ -1,0 +1,120 @@
+/* Add this CSS in your stylesheets or in a style tag in your Blade files */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Nunito', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29vh;
+    margin-top: 2rem; /* Adjust the top margin as needed */
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #0056b3;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-check {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.dropdown-menu {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
